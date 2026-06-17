@@ -8,16 +8,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root {
-    --black: #0a0a0a;
-    --charcoal: #141414;
-    --steel: #1e1e1e;
-    --mid: #2a2a2a;
-    --border: #2f2f2f;
-    --muted: #888;
-    --silver: #c8c8c8;
-    --white: #f4f4f0;
-    --red: #d42b2b;
-    --red-glow: rgba(212,43,43,0.15);
+    --black: #faf7f2;
+    --charcoal: #f1ece3;
+    --steel: #eae3d7;
+    --mid: #ddd3c2;
+    --border: #d8cdb8;
+    --muted: #7a6f5f;
+    --silver: #4a4238;
+    --white: #2b2520;
+    --red: #b3261e;
+    --red-glow: rgba(179,38,30,0.10);
   }
 
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -42,7 +42,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 18px 40px;
-    background: rgba(10,10,10,0.92);
+    background: rgba(250,247,242,0.92);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--border);
   }
@@ -205,7 +205,7 @@
   }
 
   .stat-block {
-    background: rgba(20,20,20,0.9);
+    background: rgba(250,247,242,0.92);
     border: 1px solid var(--border);
     border-left: 3px solid var(--red);
     padding: 14px 20px;
@@ -215,7 +215,7 @@
   .stat-num {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 2rem;
-    color: var(--white);
+    color: var(--silver);
     line-height: 1;
   }
 
@@ -1003,8 +1003,8 @@
   .hero-bg {
     position: absolute;
     inset: 0;
-    background: linear-gradient(to bottom, rgba(10,10,10,0.55) 0%, rgba(10,10,10,0.75) 55%, var(--black) 100%),
-      radial-gradient(ellipse at 70% 40%, rgba(212,43,43,0.10) 0%, transparent 60%);
+    background: linear-gradient(to bottom, rgba(250,247,242,0.45) 0%, rgba(250,247,242,0.75) 55%, var(--black) 100%),
+      radial-gradient(ellipse at 70% 40%, rgba(179,38,30,0.06) 0%, transparent 60%);
     z-index: 1;
   }
   .hero-content { z-index: 2; }
